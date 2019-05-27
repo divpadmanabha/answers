@@ -29,7 +29,7 @@
     Make the test cases independent of each other, once done, we could run them in parallel.
     Use of fewer locators to prevent intensive DOM navigation.
     Handling wait for page load or object load.
-    
+    Have DOM manipulation scripts via tools like Enzyme, if applicable.
 
 4.	Sometimes UI tests can fail unpredictably. For example, the page may not have fully loaded before test automation attempts to click a button on a webpage. How would you improve reliability of these tests without increasing execution time?  
 
