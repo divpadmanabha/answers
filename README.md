@@ -38,6 +38,7 @@
 5.	From your experience, what is the focus of UI Automation testing – Integration, Functional or Acceptance testing? Briefly explain why.
     
     UI Testing is a very important part of the testing, as at the end of day that's what the customer sees, having said that I also believe that UI test cases should be minimalistic in nature, enough to get the sense of the page is functioning as expected. I believe most of the heavy lifting should be done by the Unit Tests / Contract / API Tests which can validate the functional/business aspects of a test.
-    And, if the application performs "business actions" based on the user input in the UI - such use cases are heavily relying on the browser JS, such use cases qualify for UI automation. 
+    
+    And, if the application performs "business actions" based on the user input in the UI, such use cases are heavily relying on the browser JS, such use cases qualify for UI automation. 
 
 
