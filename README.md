@@ -36,14 +36,14 @@
 
 4.	Sometimes UI tests can fail unpredictably. For example, the page may not have fully loaded before test automation attempts to click a button on a webpage. How would you improve reliability of these tests without increasing execution time?  
 
-    It's important to eliminate wait statements in your tests. Replace all generic wait statements with conditional waits.
+    It's important to replace all generic wait statements with conditional waits.
     
     Have better object identifiers with direct attributes like ID, Name, etc.
     
-    Add more Unit Tests.
-    
     Have smaller tests - with setup and tear downs.
     
+    Add more Unit Tests.
+   
     Retry - Use of custom exception handling can provide a fall back mechanism to instigate a retry in case such failure occurs.
 
 5.	From your experience, what is the focus of UI Automation testing – Integration, Functional or Acceptance testing? Briefly explain why.
