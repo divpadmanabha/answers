@@ -27,12 +27,23 @@
 3.  Which approaches could be used to reduce overall execution time? Describe how they could be implemented into your code base.
 
     Make the test cases independent of each other, once done, we could run them in parallel.
+    
     Use of fewer locators to prevent intensive DOM navigation.
+    
     Handling wait for page load or object load.
+    
     Have DOM manipulation scripts via tools like Enzyme, if applicable.
 
 4.	Sometimes UI tests can fail unpredictably. For example, the page may not have fully loaded before test automation attempts to click a button on a webpage. How would you improve reliability of these tests without increasing execution time?  
 
+    It's important to eliminate wait statements in your tests. Replace all generic wait statements with conditional waits.
+    
+    Have better object identifiers with direct attributes like ID, Name, etc.
+    
+    Add more Unit Tests.
+    
+    Have smaller tests - with setup and tear downs.
+    
     Retry - Use of custom exception handling can provide a fall back mechanism to instigate a retry in case such failure occurs.
 
 5.	From your experience, what is the focus of UI Automation testing – Integration, Functional or Acceptance testing? Briefly explain why.
